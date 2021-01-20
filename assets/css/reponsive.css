@@ -1,0 +1,117 @@
+/* Đối với Mobile và Tablet */
+@media (max-width: 1023px) {
+    .hiden-on-mobile-tablet  {
+        display: none ;
+    }
+    :root {
+         --header-height: 70px;
+         --navbar-height: 0px;
+    } 
+    .header {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        top: 0;
+    }  
+    .header-search__cart-list {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px)/2);
+    }
+    .grid__row {
+        padding-top: 50px;
+    }
+    .grid__column-2 {
+        padding-top: 50px;
+      
+
+    }
+    .menu__list {
+        display: flex;
+    }
+    .grid__row-space {
+        margin-top: 0px;
+    }
+    
+}
+
+/* Đối với Tablet */  
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hiden-on-tablet {
+        display: none;
+    }
+    .header-search__logo-link--img {
+        
+        display: none;
+       
+    }
+    .header-search__logo {
+        width: 0%;
+    }
+    .header-search__selection {
+        width: 400px;
+        flex: 0;
+        z-index: 1;
+
+    }
+    .container {
+        margin-top: 66px;
+    }
+    
+}
+
+/* Đối với Mobile */ 
+@media (max-width: 739px) {
+    .hiden-on-mobile {
+        display: none;
+    }
+    .header-search__search {
+        display: none;
+    }
+    .search__click {
+    
+    }
+    .header-search {
+        position: relative;
+    }
+    .search__click-icon {
+        font-size: 2.6rem;
+        color: white;
+        display: block;
+        position: absolute;
+        top: 34%;
+        left: 5%;
+    }
+    .header-search__logo {
+        margin: 0;
+        width: unset;
+        height: unset;
+        position: absolute;
+        top: 10%;
+        left: 30%;
+    }
+    .header-search__logo-link--img {
+        
+    }
+    .header-search__cart {
+        width: unset;
+        position: absolute;
+        top: 40%;
+        right: 30%;
+    }
+    .container {
+        margin-top: 70px;
+    }
+    .pagination-item {
+        margin: 0px;
+    }
+    .pagination-item__link {
+        font-size: 1.5rem;
+        min-width: 30px;
+    }
+    .pagination-space-top {
+        margin: 22px 0px;
+    }
+}
